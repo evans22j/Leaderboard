@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Leaderboard</title>
+</head>
+
+<body>
+  <h1>Leaderboard</h1>
+
+  <div class="name-head">
+    <h3>Recent scores</h3>
+   <div class="btn-div">
+    <button id="ref-btn" class="refresh" type="button">Refresh</button>
+   </div> 
+  </div>
+  <div class="main-container">
+    <div class="list-name">
+      <div>
+        <ul id="list" class="name-list">
+        </ul>
+      </div>
+    </div>
+    <div class="list d-none">
+      <h2>Add your score</h2>
+      <form action="#" class="formm" name="form" onsubmit="return">
+        <input type="text" id="name" class="name box" name="title" placeholder=" Your name" required> <br>
+        <input type="text" id="score" class="score box" name="author" placeholder="Your score" required>
+        <div><input id="sub" type="button" class="sub box" value="Submit"></div>
+      </form>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
