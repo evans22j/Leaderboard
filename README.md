@@ -6,11 +6,9 @@
 
 "The leader-board website displays scores submitted by different players. It allows you submit your scores. Built with JavaScript and APIs
 
-- Page view:
-
-> | Learderboard                                                                                                          |
+> Below is how the website should look and behave                                                                                                         |
 > | --------------------------------------------------------------------------------------------------------------------- |
-> | ![Screenshot1](.png) |
+> | ![Screenshot1](./leaderboard.png) |
 
 > Learning objectives:
 
@@ -18,6 +16,11 @@
 - Use ES6 modules to write modular JavaScript.
 - Learn how to use proper ES6 syntax
 - Use callbacks and promises
+
+## LIVE DEMO
+
+coming soon
+
 
 ## Built With
 

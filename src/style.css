@@ -1,5 +1,5 @@
 h1 {
-  text-align: center;
+  text-align: left;
   font-size: 50px;
 }
 
@@ -24,8 +24,8 @@ body {
 .name-head {
   display: flex;
   justify-content: space-between;
-  width: 35%;
-  margin-left: 27rem;
+  width: 57%;
+  /* margin-left: 27rem; */
 }
 
 .name-head button {
