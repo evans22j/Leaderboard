@@ -13,7 +13,7 @@ module.exports = {
 
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Output Management',
+      title: 'leaderboard',
       template: './src/index.html',
     }),
   ],
