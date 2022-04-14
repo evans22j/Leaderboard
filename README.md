@@ -19,7 +19,7 @@
 
 ## LIVE DEMO
 
-coming soon
+[Live Demo Link]()
 
 
 ## Built With
@@ -29,24 +29,40 @@ coming soon
 - Java Script
 - Webpack
 
-## Getting Started
-
-To get the content of this project locally you need to run this command in your terminal:
-
-- `https://github.com/evans22j/Leaderboard.git`
 
 ### Setup
 
-- To clone the repository run this command `https://github.com/evans22j/Leaderboard.git`
+### Clone this repository
+```bash
+$ git clone https://github.com/evans22j/Leaderboard.git
+$ cd leaderboard
+```
+
+
+### Set up Webpack
+```bash
+
+$ npm install --save-dev html-webpack-plugin
+$ npm install --save-dev webpack-dev-server
+$ npm npm install --save-dev style-loader css-loader # To able to use npm run start for live reloading.
+```
+
+
+### Run project
+```bash
+$ npm install
+$ npm run build
+$ npm run start # this will make webpack watching for your changes in code.
+```
+
+
+### open the page in the browser
+```bash
+$ open dist/index.html
+```
+
 
 ## Test
-
-For tracking linter errors locally you need to follow these steps:
-
-- After cloning the project you need to run this command
-
-  > npm install
-  > `This command will download all the dependencies of the project`
 
 - For tracking the linter errors in HTML file run:
 
@@ -60,28 +76,15 @@ For tracking linter errors locally you need to follow these steps:
 
     > npx eslint .
 
-  - Use `npm run build` to run the app in live server
-
-  - Install `npm install --save-dev webpack-dev-server` to have the ability to use live reloading.
-
-  - Then Run from the command line `npm start` to will see the browser automatically loading up our page.
-
-## Getting Started
-
-To get a local copy up and running follow these simple example steps.
-
-1. Clone the Repo or Download the Zip file and Extract by clicking here [GitHub Repo]{https://github.com/evans22j/Leaderboard.git}
-2. mkdir the folder of your choice
-3. cd the folder
-4. git clone
+  
 
 ## Author
 
 👤 **Evans Sitibekiso**
 
-- GitHub: [@evans22j](https://github.com/evans22j)
-- Twitter: [@Evans_22J](https://twitter.com/Evans_22J)
-- LinkedIn: [Evans Sitibekiso](https://www.linkedin.com/in/evans-sitibekiso-a85753202/)
+- [GitHub](https://github.com/evans22j)
+- [Twitter](https://twitter.com/Evans_22J)
+- [LinkedIn](https://www.linkedin.com/in/evans-sitibekiso-a85753202/)
 
 ## 🤝 Contributing
 
