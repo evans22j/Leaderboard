@@ -30,7 +30,7 @@ refBtn.addEventListener('click', async () => {
 
 const init = async () => {
   if (localStorage.getItem('gameID') === null) {
-    fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/', {
+    const response = fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/', {
       method: 'POST',
       body: JSON.stringify({
         name: 'Formula1',
@@ -39,10 +39,8 @@ const init = async () => {
         'Content-type': 'application/json; charset=UTF-8',
       },
     })
-      .then((response) => response.json())
-      .then((data) => {
-        localStorage.setItem('gameID', JSON.stringify(data));
-      });
+      const data = await response.json();
+      localStorage.setItem('gameID', JSON.stringify(data));  
   }
 
   sub.addEventListener('click', async (e) => {
