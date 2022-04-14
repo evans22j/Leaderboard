@@ -38,9 +38,9 @@ const init = async () => {
       headers: {
         'Content-type': 'application/json; charset=UTF-8',
       },
-    })
-      const data = await response.json();
-      localStorage.setItem('gameID', JSON.stringify(data));  
+    });
+    const data = await response.json();
+    localStorage.setItem('gameID', JSON.stringify(data));
   }
 
   sub.addEventListener('click', async (e) => {
