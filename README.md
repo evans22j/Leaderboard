@@ -14,6 +14,10 @@
 - Use ES6 modules to write modular JavaScript.
 - Learn how to use proper ES6 syntax
 - Use callbacks and promises
+- Understand and use JSON
+- Use API documentation
+- Send and receive data from an API
+
 
 ## LIVE DEMO
 
