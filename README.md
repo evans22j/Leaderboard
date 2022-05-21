@@ -6,7 +6,7 @@
 
 > Below is how the website should look and behave                                                                                                         |
 > | --------------------------------------------------------------------------------------------------------------------- |
-> | ![Screenshot1](./leaderboard.png) |
+> | ![Screenshot1](./img.png) |
 
 > Learning objectives:
 
